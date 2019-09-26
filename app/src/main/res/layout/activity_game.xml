@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+    tools:context=".GameActivity">
+
+    ]]>
+
+    <Button
+        android:id="@+id/raceBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="478dp"
+        android:layout_marginBottom="851dp"
+        android:onClick="race"
+        android:text="Race"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/road" />
+
+    <ImageView
+        android:id="@+id/car1"
+        android:layout_width="78dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="305dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car1" />
+
+    <ImageView
+        android:id="@+id/car2"
+        android:layout_width="78dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="218dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car2" />
+
+    <ImageView
+        android:id="@+id/car3"
+        android:layout_width="74dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car3" />
+
+    <ImageView
+        android:id="@+id/car4"
+        android:layout_width="74dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car4" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="430dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/finishline" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="314dp"
+        android:layout_marginBottom="134dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <TextView
+        android:id="@+id/scoreGameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="853dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wl1"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="858dp"
+        android:layout_marginEnd="399dp"
+        android:layout_marginBottom="19dp"
+        android:text="W/L"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wl2"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="858dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="19dp"
+        android:text="W/L"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wl3"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="858dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="19dp"
+        android:text="W/L"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wl4"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="385dp"
+        android:layout_marginTop="858dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="19dp"
+        android:text="W/L"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="125dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="475dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="794dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="switchActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/store" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
